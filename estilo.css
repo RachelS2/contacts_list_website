@@ -59,3 +59,19 @@ body {
 .list_item_email{
     margin: 5px 0 0;
 }
+
+.list_item:hover{
+    background-color: #e8e8e8;
+
+}
+
+.list_item_actions{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    opacity: 0;
+}
+
+.list_item:hover .list_item_actions{
+    opacity: 0.3;
+}
